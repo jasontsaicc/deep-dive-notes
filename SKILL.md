@@ -50,6 +50,7 @@ DevOps 工程師（Python / Shell / AWS / Linux / 網路基礎都會，不要解
 - 圖為主、字少。每層一段，標題寫層號和名稱。
 - Layer 4 一定有 AWS 架構圖（SVG）和「服務 → 陷阱」表。Layer 5 一定有 evolution ladder 圖。
 - Layer 7 的 L4/L6 對照用 `<details>` 收起來，先讓讀者自己想。
+- 每批 publish 後，把同一個 HTML 檔 `cp` 到 `~/go_senior_devops/learning-coaches/portfolio/<coach>/notes/`，覆蓋舊版（scratchpad 會隨 session 消失，學習地圖網站從這裡讀）。檔名照該 repo `site/README.md` 的命名規則（例：`s40-pss-layers.html`、`day35-chat-system-layers.html`），網站才會掛到對應 topic。
 
 ## 語言
 繁體中文敘述，技術名詞保留英文。chat 回覆結尾照 CLAUDE.md 附 Native English block。
