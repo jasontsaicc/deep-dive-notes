@@ -1,11 +1,11 @@
 ---
-name: layers
-description: 由淺到深講解一個技術主題，目標是大廠 DevOps/SRE 的深度：第一性原理 → 機制 → 取捨 → AWS 真實做法 → 規模化 → 故障與 on-call → 面試。產出 HTML artifact。Use when the user types /layers <topic>, says eli5 太淺, or asks to understand a topic deeply (原理、設計理念、業界/AWS 實務作法).
+name: deep-dive-notes
+description: 由淺到深講解一個技術主題，目標是大廠 DevOps/SRE 的深度：第一性原理 → 機制 → 取捨 → AWS 真實做法 → 規模化 → 故障與 on-call → 面試。產出 HTML artifact。Use when the user types /deep-dive-notes <topic>, says eli5 太淺, or asks to understand a topic deeply (原理、設計理念、業界/AWS 實務作法).
 ---
 
 <!-- engine: standalone -->
 
-# layers
+# deep-dive-notes
 
 Topic: $ARGUMENTS
 
@@ -16,7 +16,7 @@ DevOps 工程師（Python / Shell / AWS / Linux / 網路基礎都會，不要解
 心盲症：每一層都要有真的畫出來的圖（inline SVG 或 ASCII），連看不見的部分也要畫（空值、暫停狀態、被覆蓋前的舊值、封包沒到的那一段）。禁止「想像一下」。
 
 ## 路由
-主題屬於 k8s、system design、leetcode、AWS ProServe 面試演練 → 改用 k8s-coach / sd-coach / leetcode-coach / cloud-architect-coach。layers 只負責「把一個主題講透」，不出題、不計分、不寫 progress。
+主題屬於 k8s、system design、leetcode、AWS ProServe 面試演練 → 改用 k8s-coach / sd-coach / leetcode-coach / cloud-architect-coach。deep-dive-notes 只負責「把一個主題講透」，不出題、不計分、不寫 progress。
 
 ## 七層
 
